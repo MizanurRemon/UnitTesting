@@ -20,7 +20,6 @@ class ParameterizedClass(private val input: String, private val expectedOutput: 
     }
 
     companion object {
-
         @JvmStatic
         @Parameters(name = "{index}: {0} is validate - {1}")
         fun data(): List<Array<Any>> {

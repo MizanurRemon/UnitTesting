@@ -45,4 +45,10 @@ class ExampleUnitTest {
 
         assertEquals(false, result)
     }
+
+    @Test
+    fun validatePasswordTest(){
+        val result = Helper.validatePassword("12345")
+        assertEquals(false, result)
+    }
 }
